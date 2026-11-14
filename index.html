@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff0f6"><meta name="description" content="Bucin Quest — tangkap hati dan buka hadiah Sakura Miku!">
+<title>Bucin Quest — Sakura Miku Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><b>♡</b> Bucin<span>Quest</span></a><span class="edition">✿ SAKURA MIKU EDITION</span></header>
+<main>
+<section class="hero">
+ <div><p class="eyebrow">A LITTLE GAME, A BIG LOVE ♡</p><h1>Buktikan kalau<br><em>kamu paling bucin.</em></h1><p class="intro">Kumpulkan hati sebanyak mungkin. Kalau berhasil, ada hadiah spesial yang menunggumu di ujung permainan!</p><a class="btn" href="#play">Mulai petualangan <b>→</b></a><p class="note">✿ Dibuat dengan cinta dan kelopak sakura</p></div>
+ <div class="hero-art"><div class="ring"></div><div class="big-heart">♥</div><div class="sticker">LOVE<br>LEVEL<br><b>MAX</b></div><span class="petal p1">✿</span><span class="petal p2">♡</span><span class="petal p3">✧</span><div class="caption">your mission<br><b>collect love!</b></div></div>
+</section>
+<section class="game-section" id="play"><div class="heading"><p class="eyebrow">THE LOVE CHALLENGE</p><h2>Seberapa bucin kamu?</h2><p>Tangkap 15 hati sebelum waktunya habis!</p></div>
+<div class="game-card"><div class="stats">
+ <div class="stat"><span>♥</span><div><small>SKOR</small><strong id="score">0</strong></div></div>
+ <div class="stat"><span>◷</span><div><small>WAKTU</small><strong><b id="time">30</b><small class="unit">s</small></strong></div></div>
+ <div class="stat"><span>✦</span><div><small>TARGET</small><strong>15</strong></div></div>
+</div><div class="track"><div id="progress"></div></div>
+<div class="playfield" id="playfield"><div class="placeholder" id="placeholder"><b>♡</b><strong>Siap mengumpulkan cinta?</strong><small>Tekan mulai, lalu klik hati yang muncul!</small></div><div class="message hidden" id="message"></div></div>
+<div class="game-actions"><p id="hint">Kumpulkan 15 hati dalam 30 detik untuk membuka hadiah.</p><button class="btn" id="startBtn">Mulai game <b>♥</b></button></div>
+</div></section>
+<section class="reward hidden" id="reward"><div class="heading"><p class="eyebrow">✧ ✿ ✧ &nbsp; YOU DID IT!</p><h2>Hadiah untuk si paling bucin!</h2><p>Kamu berhasil membuktikannya. Ini dia waifu spesialmu ♡</p></div>
+<div class="reward-card"><div class="reward-picture"><img id="rewardImage" src="https://i.pinimg.com/736x/d5/e5/91/d5e5912db73bf2d1832e95e63953a66e.jpg" alt="Sakura Miku dari Aishiteru Game"><span>♡ YOUR WAIFU ♡</span></div><div class="reward-info"><small>✦ SPECIAL REWARD UNLOCKED</small><h3>Sakura Miku</h3><b>Aishiteru Game Edition</b><p>“Selamat! Kamu sudah mengumpulkan cukup cinta. Semoga hari-harimu selalu seindah bunga sakura.”</p><button class="outline" id="againBtn">Main lagi ↻</button></div></div>
+<div class="gallery"><p class="eyebrow">SAKURA MOMENTS</p><div class="gallery-grid">
+<button data-image="https://tse4.mm.bing.net/th/id/OIP.etwVogO7yTiiWN1EjOyNLAHaHa?r=0&pid=Api&h=220&P=0"><img src="https://tse4.mm.bing.net/th/id/OIP.etwVogO7yTiiWN1EjOyNLAHaHa?r=0&pid=Api&h=220&P=0" alt="Sakura Miku 2"></button>
+<button data-image="https://tse3.mm.bing.net/th/id/OIP.m2_PThBHnJvuhq_ChUlEKQAAAA?r=0&pid=Api&h=220&P=0"><img src="https://tse3.mm.bing.net/th/id/OIP.m2_PThBHnJvuhq_ChUlEKQAAAA?r=0&pid=Api&h=220&P=0" alt="Sakura Miku 3"></button>
+<button data-image="https://tse1.mm.bing.net/th/id/OIP.3_GakGm7u7sShfGrUW_uPgAAAA?r=0&pid=Api&h=220&P=0"><img src="https://tse1.mm.bing.net/th/id/OIP.3_GakGm7u7sShfGrUW_uPgAAAA?r=0&pid=Api&h=220&P=0" alt="Sakura Miku 4"></button>
+</div></div></section>
+</main><footer>✿ Made with love <b>Bucin Quest</b> ♡<small>Fan-made mini game. Character images use the links provided.</small></footer>
+<script src="assets/js/game.js"></script></body></html>
